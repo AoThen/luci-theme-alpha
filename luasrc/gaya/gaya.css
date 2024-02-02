@@ -51,7 +51,7 @@ b {
   color: #5a8dee;
   text-decoration: none;
   background-color: transparent;
-  font-family: "Quicksand-Bold";
+  font-family: 'Sarasa Gothic SC Nerd Font',"Quicksand-Bold";
   
 }
 ::-webkit-scrollbar:hover {
@@ -158,11 +158,11 @@ b {
     --main-menu-color: #202124;
     --submenu-bg-hover: #4d5ca5;
     --submenu-bg-hover-active: #09c;
-    --font-body: 'Inter-Regular';
+    --font-body: 'Sarasa Gothic SC Nerd Font','Inter-Regular';
   }
 
   tt {
-    font-family: "Quicksand-Bold";
+    font-family: 'Sarasa Gothic SC Nerd Font',"Quicksand-Bold";
     color: #09c;
 }
   em {
@@ -286,7 +286,7 @@ label {
   h4,
   h5,
   h6 {
-    font-family: inherit;
+    font-family: 'Sarasa Gothic SC Nerd Font',inherit;
     font-weight: 400;
     line-height: 1.1 !important;
     color: #fff;
@@ -637,7 +637,7 @@ label {
     border-radius: 10px;
   }
   .main > .loading > span {
-    font-family: monospace;
+    font-family: 'Sarasa Gothic SC Nerd Font',monospace;
     font-size: 2rem;
     font-size-adjust: 0.35;
     position: relative;
@@ -990,7 +990,7 @@ strong {
   }
   h2 {
     font-size: 1.8rem;
-    font-family: "Quicksand-Bold";
+    font-family: 'Sarasa Gothic SC Nerd Font',"Quicksand-Bold";
     letter-spacing: 5px;
     text-align: center;
     padding-bottom: 10px;
@@ -1001,7 +1001,7 @@ strong {
   }
   h3 {
     font-size: 1.2rem;
-    font-family: 'Inter-Bold';
+    font-family: 'Sarasa Gothic SC Nerd Font','Inter-Bold';
     letter-spacing: 2px;
     padding-bottom: 10px;
     margin: 2rem 0 0;
@@ -1040,7 +1040,7 @@ strong {
   [data-page^="admin-system-admin"]:not(.node-main-login)
     .cbi-map:not(#cbi-dropbear),
   [data-page="admin-system-opkg"] #maincontent > .container {
-    font-family: inherit;
+    font-family: 'Sarasa Gothic SC Nerd Font',inherit;
     font-weight: 400;
     font-style: normal;
     line-height: normal;
@@ -1379,7 +1379,7 @@ strong {
     border-radius: 20px;
   }
 
-  .cbi-tabmenu > li[class~= data-tab=] {
+  .cbi-tabmenu > li[class~= "data-tab"] {
     color: #ffffff;
   }
   [data-tab-title] {
@@ -1716,7 +1716,7 @@ strong {
     margin: 6px 0;
   }
     .cbi-progressbar title {
-    font-family: "Quicksand-Bold";
+    font-family: 'Sarasa Gothic SC Nerd Font',"Quicksand-Bold";
     letter-spacing: 5px;
     text-align: center;
     padding-bottom: 10px;
@@ -1731,7 +1731,7 @@ strong {
     padding: 0.5rem;
   }
   .cbi-progressbar::after {
-    font-family: monospace;
+    font-family: 'Sarasa Gothic SC Nerd Font',monospace;
     font-size: 1.2em;
     font-weight: 700;
     font-size-adjust: 0.38;
@@ -1851,7 +1851,7 @@ strong {
     background: url(./icon/loading.svg) no-repeat center;
     background-size: 20px;
   }
-  }
+  
   .left,
   .left::before {
     text-align: left !important;
@@ -1930,7 +1930,7 @@ strong {
     border-radius: 10px;
   }
   .cbi-input-textarea {
-    font-family: monospace;
+    font-family: 'Sarasa Gothic SC Nerd Font',monospace;
     width: 100%;
     min-height: 14rem;
     color: #000;
@@ -1953,7 +1953,7 @@ strong {
     outline: 0;
   }
   .uci-change-list {
-    font-family: monospace;
+    font-family: 'Sarasa Gothic SC Nerd Font',monospace;
   }
   .uci-change-list ins,
   .uci-change-legend-label ins {
@@ -2408,9 +2408,9 @@ strong {
   #cbi-network-switch_vlan .td {
     width: 100%;
   }
-  .cbi-rowstyle-2 {
+  /* .cbi-rowstyle-2 {
     background-color: ;
-  }
+  } */
   .pull-right,
   .node-main-login > .main form > div:last-child {
     float: right;
@@ -3083,9 +3083,9 @@ strong {
     }
     .main > .main-left > .nav > .slide > .slide-menu > li > a,
     .tr[data-title]::before,
-    .tr.cbi-section-table-titles.named::before {
+    /* .tr.cbi-section-table-titles.named::before {
       font-size: 
-    }
+    } */
     .cbi-value-title,
     .cbi-value-description,
     .cbi-value-field,

@@ -11,7 +11,7 @@ catatan usahakan untuk mengganti bg pakai format png, kalo jpg ganti aja di bagi
 body,
 html {
   height: 100%;
-  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-family: 'Sarasa Gothic SC Nerd Font','Segoe UI', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -162,8 +162,8 @@ Login Box
   z-index: 2;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  -webkit-border-radius: 20px:
-  -moz-border-radius= 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   -moz-box-shadow: 15px 30px 30px rgba(0,0,0,0.32);
   box-shadow: 15px 30px 30px rgba(0,0,0,0.32);
@@ -231,7 +231,7 @@ button:focus { outline:0; }
 .b-support, .b-cta {
 	width: 100%;
 	padding: 0px 15px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Sarasa Gothic SC Nerd Font','Quicksand', sans-serif;
   font-weight: 700;
   letter-spacing: -1px;
   font-size: 16px;
@@ -316,7 +316,7 @@ input[type=submit]  {
   height: 48px;
   margin-top: 24px;
   padding: 0px 20px;
-  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-family: 'Sarasa Gothic SC Nerd Font','Segoe UI', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	color: #fff;
