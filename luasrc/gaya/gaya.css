@@ -2713,7 +2713,7 @@ strong {
       padding-bottom: 1rem;
     }
     table {
-      font-size: 0.7rem !important;
+      font-size: 1.1rem !important;
       width: 100% !important;
     }
     .table .cbi-input-text {
@@ -2736,7 +2736,7 @@ strong {
       color: #fff;
     }
     .main > .main-left > .nav > .slide > .slide-menu > li > a {
-      font-size: 0.7rem;
+      font-size: 1.1rem;
       color: #fff;
     }
     #modal_overlay {
@@ -2944,7 +2944,7 @@ strong {
       margin-top:0;
     }
     .cbi-progressbar::after {
-      font-size: 0.95em;
+      font-size: 1.1em;
       line-height: 1.5;
     }
     fieldset,
@@ -3079,7 +3079,7 @@ strong {
     }
     body,
     code {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
     .main > .main-left > .nav > .slide > .slide-menu > li > a,
     .tr[data-title]::before,
