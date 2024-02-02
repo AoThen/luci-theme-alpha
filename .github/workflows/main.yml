@@ -18,7 +18,7 @@ jobs:
           sudo -E apt-get -qq clean
       - name: Cache openwrt SDK
         id: cache-sdk
-        uses: actions/cache@v3
+        uses: actions/cache@main
         with:
           path: sdk
           key: openwrt-sdk-21.02-x86-64
@@ -44,6 +44,7 @@ jobs:
       - name: Configure Alpha Theme (master)
         run: |
           cd sdk
+          git clone --depth 1 -b master https://github.com/${{ github.repository }}.git package/downloads/luci-theme-alpha
           ./scripts/feeds install luci-theme-alpha
           echo "CONFIG_ALL_NONSHARED=n" > .config
           echo "CONFIG_ALL_KMODS=n" >> .config
