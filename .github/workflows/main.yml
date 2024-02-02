@@ -1,6 +1,5 @@
 name: "Build Theme Alpha OpenWrt SDK"
 on:
-  repository_dispatch:
   workflow_dispatch:
   push:
 
@@ -44,6 +43,7 @@ jobs:
       - name: Configure Alpha Theme (master)
         run: |
           cd sdk
+          rm -rf package/downloads/luci-theme-alpha
           git clone --depth 1 -b master https://github.com/${{ github.repository }}.git package/downloads/luci-theme-alpha
           ./scripts/feeds install luci-theme-alpha
           echo "CONFIG_ALL_NONSHARED=n" > .config
