@@ -1174,9 +1174,9 @@ strong {
     touch-action: manipulation;
     padding: 0 0.8rem;
   }
-  .cbi-button-up {
+  /* .cbi-button-up {
     transform: scaleY(-1);
-  }
+  } */
   .cbi-button:not(select) {
     -webkit-appearance: none !important;
   }
