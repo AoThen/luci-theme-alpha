@@ -10,7 +10,7 @@ THEME_NAME:=alpha
 THEME_TITLE:=Alpha
 
 PKG_NAME:=luci-theme-$(THEME_NAME)
-PKG_VERSION:=3.9.2-beta
+PKG_VERSION:=3.9.3
 PKG_RELEASE:=9
 
 include $(INCLUDE_DIR)/package.mk
@@ -48,5 +48,11 @@ define Package/luci-theme-$(THEME_NAME)/postinst
 	( . /etc/uci-defaults/30-luci-theme-$(THEME_NAME) ) && rm -f /etc/uci-defaults/30-luci-theme-$(THEME_NAME)
 }
 endef
+
+define Package/luci-theme-$(THEME_NAME)/prerm
+	$(RM) -r $(1)/www/luci-static/$(THEME_NAME)
+	$(RM) -r $(1)/usr/lib/lua/luci/view/themes/$(THEME_NAME)
+endef
+
 
 $(eval $(call BuildPackage,luci-theme-$(THEME_NAME)))
